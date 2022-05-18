@@ -1,0 +1,1 @@
+The zsh code for this directory is [sindresorhus/pure](https://github.com/sindresorhus/pure)
