@@ -17,8 +17,7 @@ do_install() {
         command echo "Download pure successful!"
         command echo "Start setup pure~"
         command printf "${APPEND_STR}" >> "$HOME/.zshrc"
-        command echo "Setup pure successful!"
-        source "$ZSHRC"
+        command echo "Setup pure successful! please restart iTerm2"
     fi
 }
 
