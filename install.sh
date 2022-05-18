@@ -1,6 +1,6 @@
 
 PURE_HOME="$HOME/.zsh/pure"
-APPEND_STR="\\nPURE_PROMPT_PATH_LAYERS=3\\nPURE_PROMPT_SYMBOL=\"\$\"\\n\\nfpath+=\"\$HOME/.zsh/pure\"\\nautoload -U promptinit; promptinit\\nprompt pure"
+APPEND_STR="\\nPURE_PROMPT_PATH_LAYERS=3\\n\\nfpath+=\"\$HOME/.zsh/pure\"\\nautoload -U promptinit; promptinit\\nprompt pure"
 ZSHRC="$HOME/.zshrc"
 
 do_install() {
