@@ -1,6 +1,6 @@
 # Install-pure
 
-This shell is used to quickly install [sindresorhus/pure](https://github.com/sindresorhus/pure)，This script is not generic, so far I have successfully installed it on `M1 MAC Mini`
+This shell is used to quickly install [sindresorhus/pure](https://github.com/sindresorhus/pure)，This script is not generic, so far I have successfully installed it on `M1 Mac Mini`
 
 ## Usage
 

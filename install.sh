@@ -4,9 +4,9 @@ APPEND_STR="\\nPURE_PROMPT_PATH_LAYERS=3\\nPURE_PROMPT_SYMBOL=\"\$\"\\n\\nfpath+
 ZSHRC="$HOME/.zshrc"
 
 do_install() {
-  if [ ! -e "$ZSHRC" ];
-    then echo > "$ZSHRC";
-  else
+    if [ ! -e "$ZSHRC" ];
+        then echo > "$ZSHRC";
+    fi
     if [ -e "$PURE_HOME/async" ] && [ -e "$PURE_HOME/prompt_pure_setup" ];
         then echo "The pure already installed in $PURE_HOME"
     else
@@ -20,7 +20,6 @@ do_install() {
         command echo "Setup pure successful!"
         source "$ZSHRC"
     fi
-  fi
 }
 
 do_install;
