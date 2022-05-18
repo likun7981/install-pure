@@ -11,4 +11,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/likun7981/install-pure/mai
 ## Some changes
 feat: add `PURE_PROMPT_PATH_LAYERS` to configure the maximum display of path layers，It is set to `PURE_PROMPT_PATH_LAYERS=3` when use `install.sh` by default
 
-[why pullRequest to pure?](https://github.com/sindresorhus/pure/discussions/627)
+[Why not submit a pullRequest to pure?](https://github.com/sindresorhus/pure/discussions/627)
