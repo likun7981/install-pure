@@ -5,7 +5,7 @@ This shell is used to quickly install [sindresorhus/pure](https://github.com/sin
 ## Usage
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/likun7981/install-pure/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/likun7981/install-pure/main/install.sh)"
 ```
 
 ## Some changes
